@@ -1,0 +1,30 @@
+.categorysidebar .category img{
+    width: 40px;
+    height: 40px;
+}
+
+.categorysidebar{
+
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categorysidebar .category{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid wheat;
+    padding: 10px 20px;
+    gap:10px;
+}
+
+.categorysidebar .category:hover{
+    background-color: chartreuse;
+}
+
+.categorysidebar .category p{
+
+    font-size: 16px;
+    padding: 0px;
+}
