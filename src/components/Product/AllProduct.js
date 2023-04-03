@@ -1,9 +1,13 @@
 import React from 'react'
 import ProductCard from './ProductCard'
-import img1 from '../../assets/Images/1.png'
-import img2 from '../../assets/Images/2.png'
-import img3 from '../../assets/Images/3.png'
-import img4 from '../../assets/Images/4.png'
+import img1 from '../../assets/fruits/orange.jpeg'
+import img2 from '../../assets/fruits/strawberry.jpeg'
+import img3 from '../../assets/fruits/watermelon.jpeg'
+import img4 from '../../assets/fruits/pineapple.jpeg'
+import img5 from '../../assets/fruits/grapes.jpeg'
+import img6 from '../../assets/fruits/strawberry.jpeg'
+import img7 from '../../assets/fruits/watermelon.jpeg'
+import img8 from '../../assets/fruits/pineapple.jpeg'
 
 import './AllProduct.css'
 
@@ -43,7 +47,7 @@ const AllProduct = () => {
         },
         {
             id:5,
-            productimage: img1,
+            productimage: img5,
             productname: 'Orange',
             productprice: 100,
             counttype: '1 per kg',
@@ -51,7 +55,7 @@ const AllProduct = () => {
            },
            {
             id:6,
-            productimage: img2,
+            productimage: img6,
             productname: 'Apple',
             productprice: 100,
             counttype: '1 per kg',
@@ -59,7 +63,7 @@ const AllProduct = () => {
            },
            {
             id:7,
-            productimage: img3,
+            productimage: img7,
             productname: 'Home Items',
             productprice: 100,
             counttype: '1 per kg',
@@ -67,7 +71,7 @@ const AllProduct = () => {
            },
            {
             id:8,
-            productimage: img4,
+            productimage: img8,
             productname: 'Grocery',
             productprice: 100,
             counttype: '1 per kg',
