@@ -14,8 +14,32 @@
          3. git add file-name (files to be considered while next commit)
             git commit -m "Commited...."
             git add . (moves all the newly modified file to staging area)
+            git status
+            git log (used for commit history checking)
+            git checkout (commit id)
         (untracked file / modified file) :- new file created, move to staging area (git add <file-name>), once it is to staging area then commit.
         if new file created      
+
+        4. If one want to push the changes to remote repository.
+        git push <origin-name> <branch-name>
+
+        5. git remote add origin <origin-name> (I added a reference to remote repository..., remote address)
+        6. git push origin master. (pushing all content to the remote repository).
+          By default, master brach is created
+          
+        7. downloading updates for remote repository.
+           code . (It will open code in VS Code)
+           git pull <origin-name> <branch-name>
+           git pull origin master
+
+        8. If I have remote repo and trying to do and push changes, directly it will not happen.
+        First of all, pull for the remote repo first to local machine and then do change stage and then commit new change and finally push.
+        
+        9. Updates directly to the master branch is not recommended (it may lead to buggy code).
+        master-> dev-> feature(1632, 1633, 1634) -> after feature I will(or any senior developer) merge changes to dev then to master
+        jira ticket -> 1632 (I will create a branch jirafeature1632)
+        (git checkout -b jira/1632) [New branch will be created and all code form master will be inherited exactly]
+        similarly for any bug I can define a branch 
     -->
     <div>
         <p>Hello World!!!</p>
