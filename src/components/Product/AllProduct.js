@@ -7,7 +7,7 @@ import img4 from '../../assets/fruits/pineapple.jpeg'
 import img5 from '../../assets/fruits/grapes.jpeg'
 import img6 from '../../assets/fruits/strawberry.jpeg'
 import img7 from '../../assets/fruits/watermelon.jpeg'
-import img8 from '../../assets/fruits/pineapple.jpeg'
+import img8 from '../../assets/fruits/pineapple.jpeg';
 
 import './AllProduct.css'
 
